@@ -1,0 +1,41 @@
+.about {
+    float: left;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.about_1{
+    background-image: url("images/grocery.jpg");
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    background-repeat: no-repeat;
+    
+   
+    
+}
+.about_1::after{
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    background-color: #F15A29;
+    opacity: 0.9;
+}
+.about_1 h2{
+    color:#fff;
+    position:relative;
+    z-index:1;
+    text-align: center;
+}
+.icon div{
+    width: 35px;
+    height: 5px;
+    background-color:black;
+    margin: 6px 0 6px 0;
+    
+}
