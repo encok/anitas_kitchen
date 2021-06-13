@@ -60,15 +60,14 @@
     display: flex;
     opacity: 0.9;
     padding: 61px;
-    width: 100%;
+    width: 65%;
     height: 40%;
     margin-left: 0px;
     z-index: 2;
     
 }
-#food h3{
-    color: chartreuseS;
-}
+
+
 #container1{
     position: relative;
     text-align: center;
@@ -87,15 +86,18 @@
     float: left;
 }
 .happy, .party{
-    width: 270px;
+    width: 200px;
     height: 100px;
     
 }
 .happy{
     background-color: grey;
+    padding-right: 40px;
 }
 .party{
-    background-color: red;
+    background-color: #F15A29;
+    padding-right: 40px;
+    padding-top: 0;
 }
 #product div{
    
@@ -120,7 +122,7 @@
     padding: 2px 2px 2px px;
     box-shadow: 2px 3px 8px grey;
     float: left;
-    display: flex;    
+    display: flex;
     flex-direction: column;
     
 }
@@ -165,22 +167,91 @@
 section{
     background-image: url("images/subscribe.jpg");
     background-repeat: no-repeat;
-    padding:0 50px 0 50px;
-    height: 50vh;
-    display: flex;
+    height:300px ;
     align-items: center;
 
    
 }
+#nav{
+    width: 50.8%;
+    margin-left: 200px;
+    padding-top: 50px;
+    
+}
+#nav p{
+    color: #F15A29;
+}
 #burger1{
     position: relative;
-    width: 45%;
-    padding: 100px;
+    width: 50.8%;
     background-color: white;
-    height: 20px;
+    height: 90px;
     display: flex;
     margin-left: 200px;
+    flex-direction: row;
+    padding-bottom: 50px;
+}
+
+#nav ul{
+   list-style: none;
+   background-color: lightgrey;
+   text-align: center;
+   padding: 0;
+   margin: 0;
+   margin-left: 200px;
+   
+
+}
+#nav nav{
+    margin: 0;
+    background-color: white;
+   
+}
+#nav li{
+    display: inline-block;
+
+}
+#nav a{
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    display: block;
+    padding: 15px;
+    font-size: 17px;
+    font-family: Helvetica;
     
+}
+#nav a:hover {
+    background: #F15A29;;
+    transition: .4s;
+}
+
+#burger1 img{
+  
+  
+    margin: 0 2px 5px;
+    align-items: center;
+}
+#burger1>img{
+    display: flex;
+    margin-left: 20px;
+}.names{
+    display: flex;
+    margin-top: 80px;
+    
+}
+.photo-name {
+    /*margin-top: 245px;*/
+    /*padding: 0.5em;*/
+    text-align: center;
+    color: #F15A29;;
+    margin-top: 100px;
+    /*background-color: #666666;*/
+}
+    
+    
+
+
     /*padding: 10px 20px 10px 20px;
     margin:20px 20px 20px 20px ;*/
    /* background-color: green;
