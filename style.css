@@ -60,7 +60,7 @@
     display: flex;
     opacity: 0.9;
     padding: 61px;
-    width: 65%;
+    width: 300px;
     height: 40%;
     margin-left: 0px;
     z-index: 2;
@@ -82,7 +82,7 @@
 
 
 .all{
-    margin-left:0 ;
+    margin-left:-61px ;
     float: left;
 }
 .happy, .party{
@@ -103,9 +103,16 @@
    
    
 }
-#product>div{
-   
+.namez{
+    position: absolute;
+    margin-top: -70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-left: 40px;
 }
+   
 .fast{
     padding-top: 50px;
     margin-left: 230px;
@@ -188,11 +195,13 @@ section{
 #nav{
     width: 50.8%;
     margin-left: 200px;
-    padding-top: 50px;
+    padding-top: 45px;
     
 }
 #nav p{
     color: #F15A29;
+    margin-left: 40px;
+    margin-bottom: -18px;
 }
 #burger1{
     position: relative;
@@ -203,6 +212,7 @@ section{
     margin-left: 200px;
     flex-direction: row;
     padding-bottom: 50px;
+    
 }
 
 #nav ul{
@@ -216,7 +226,7 @@ section{
 
 }
 #nav nav{
-    margin: 0;
+    margin-top: -20;
     background-color: white;
    
 }
@@ -240,26 +250,42 @@ section{
 }
 
 #burger1 img{
-  
-  
-    margin: 0 2px 5px;
-    align-items: center;
+    margin: 0px 20px 20px 40px;
+
 }
-#burger1>img{
-    display: flex;
-    margin-left: 20px;
-}.names{
+
+
+.names{
     display: flex;
     margin-top: 80px;
     
 }
-.photo-name {
-    /*margin-top: 245px;*/
-    /*padding: 0.5em;*/
-    text-align: center;
+.photo-name1{
+    margin-top: 120px;
+    margin-left: -70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     color: #F15A29;
-    margin-top: 100px;
-    /*background-color: #666666;*/
+
+}
+.photo-name2{
+    margin-top: 120px;
+    margin-left: -70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #F15A29;
+
+}
+.photo-name3{
+    margin-top: 120px;
+    margin-left: -70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #F15A29;
+
 }
 
 
@@ -308,7 +334,7 @@ section{
     background-image: url("images/subscribe.jpg");
     background-repeat: no-repeat;
     height:200px ;
-    margin-top: 150px;
+    margin-top: 180px;
 }
 form {
     position: absolute;
